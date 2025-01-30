@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Python Documentation</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <header><h1>Python Documentation</h1></header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li><a class="nav-link" href="#Syntax">Syntax</a></li>
+        <li><a class="nav-link" href="#Data_types">Data types</a></li>
+        <li><a class="nav-link" href="#Functions">Functions</a></li>
+        <li><a class="nav-link" href="#Libraries">Libraries</a></li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section Intro-section" id="Introduction">
+        <header class="sub-headers">Introduction</header>
+        <p>Python is a versatile, high-level programming language known for its readability and simplicity. Developed by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability and ease of use. Its syntax allows developers to express concepts in fewer lines of code than possible in languages like C++ or Java. Python supports multiple programming paradigms, including procedural, object-oriented, and functional programming. It's widely used in web development, data analysis, artificial intelligence, scientific computing, and more, thanks to its extensive standard library and active community. Whether you're a beginner or an experienced programmer, Python offers a wealth of tools and frameworks to help you build a wide range of applications.</p>
+        <pre><code>print("Hello, World!")</code></pre>
+        <p class="i"><i>This simple code prints the phrase "Hello, World!" to the console. It's often the first program written when learning a new programming language.</i></p>
+      </section>
+
+      <section class="main-section" id="Syntax">
+        <header class="sub-headers">Syntax</header>
+        <p>Python's syntax is designed to be clean and easy to read, emphasizing code readability and simplicity. Unlike many other programming languages, Python uses indentation to define code blocks instead of braces or keywords. This indentation structure makes the code visually appealing and consistent. Python also uses straightforward keywords and language constructs, allowing developers to express complex ideas in fewer lines of code. For example, defining functions, classes, and loops in Python is intuitive and concise. The language supports a variety of data types, such as lists, dictionaries, sets, and tuples, and includes powerful built-in functions. Python's simplicity and readability make it an ideal choice for both beginners and experienced programmers, enabling rapid development and maintenance of projects.</p>
+        <pre><code>num1 = 5
+num2 = 7
+sum = num1 + num2
+print("Sum:", sum)</code></pre>
+        <p class="i"><i>This code initializes two variables with the values 5 and 7, calculates their sum, and prints the result.</i></p>
+      </section>
+
+      <section class="main-section" id="Data_types">
+        <header class="sub-headers">Data Types</header>
+        <p>Python offers a rich set of built-in data types that cater to various programming needs. <i>These data types include:</i></p>
+        <ul>
+          <li class="data-types-item"><b>Integers</b>, which are whole numbers without a fractional part</li>
+          <li class="data-types-item"><b>Floats</b>, which are numbers with a decimal point representing real numbers.</li>
+          <li class="data-types-item"><b>Strings</b> are sequences of characters enclosed in single or double quotes, used to handle textual data.</li>
+          <li class="data-types-item"><b>Lists</b> are ordered collections of items, which can be of different data types, enclosed in square brackets.</li>
+          <li class="data-types-item"><b>Tuples</b> are similar to lists but immutable, meaning their elements cannot be changed after creation, and are enclosed in parentheses.</li>
+          <li class="data-types-item"><b>Dictionaries</b> are collections of key-value pairs, where each key is unique, and are enclosed in curly braces.</li>
+          <li class="data-types-item"><b>Sets</b> are unordered collections of unique elements, typically used for membership testing and eliminating duplicates.</li>
+        </ul>
+        <p><i>These data types provide the foundation for managing and manipulating data in Python, enabling developers to write efficient and effective code.</i></p>
+        <pre><code>fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print(fruit)</code></pre>
+        <p class="i"><i>This code creates a list of fruits and uses a for loop to iterate through the list, printing each fruit.</i></p>
+      </section>
+
+      <section class="main-section" id="Functions">
+        <header class="sub-headers">Functions</header>
+        <p>Functions in Python are blocks of reusable code designed to perform a specific task. They are defined using the def keyword, followed by the function name and a set of parentheses containing any parameters the function might take. Once defined, a function can be called multiple times throughout a program, helping to reduce code duplication and improve readability. Functions can return values using the return statement, allowing them to output results that can be used elsewhere in the code. Additionally, Python supports both built-in functions, like print() and len(), and user-defined functions, providing flexibility for a wide range of programming needs. Functions can also be nested, and Python allows for anonymous functions using the lambda keyword for simple operations. This modular approach to coding makes Python an efficient and powerful language for developers.</p>
+        <pre><code>def square(x):
+    return x * x
+
+number = 4
+print("Square:", square(number))</code></pre>
+        <p class="i"><i>This code defines a function named square that takes a number as an input and returns its square. It then calls this function with the number 4 and prints the result.</i></p>
+      </section>
+
+      <section class="main-section" id="Libraries">
+        <header class="sub-headers">Libraries</header>
+        <p>Python libraries are collections of pre-written code that provide functionalities and tools to help developers complete tasks more efficiently. They cover a wide range of areas including web development, data analysis, machine learning, and more. By importing these libraries into their projects, developers can leverage built-in functions and modules, significantly reducing the need to write code from scratch. Some of the most popular Python libraries include NumPy for numerical computations, Pandas for data manipulation and analysis, Matplotlib for data visualization, and TensorFlow for machine learning. The Python Package Index (PyPI) hosts thousands of libraries, making it easy for developers to find and install the tools they need. This extensive ecosystem of libraries is one of the key reasons Python is a preferred language for many developers.</p>
+        <pre><code>import math
+
+# Calculate the square root of 16
+result = math.sqrt(16)
+print("Square root of 16 is:", result)</code></pre>
+        <p class="i"><i>This code snippet imports the math library, which provides access to mathematical functions. Then, it uses the sqrt function from the math library to calculate the square root of 16 and prints the result.</i></p>
+      </section>
+    </main>
+  </body>
+</html>
