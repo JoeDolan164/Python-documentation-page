@@ -3,6 +3,7 @@
     font-size: 16px;
     padding-bottom: 10px;
     margin: 0;
+    scroll-behavior: smooth;
   }
   
   header {
@@ -139,17 +140,8 @@
       padding-top: 0px; /* Reduce padding for more space */
     }
 
-    .sub-headers {
-      font-size: 16px;
-    }
-
-    body {
-      font-size: 14px; /* Slightly smaller body font */
-    }
-
     code {
       padding: 6px; /* Reduce padding for code blocks */
-      font-size: 8px; /* Smaller font size for code */
     }
 
     .main-section ul {
